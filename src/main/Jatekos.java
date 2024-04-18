@@ -1,9 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package main;
 
+import java.util.Random;
+
 public class Jatekos {
-    
+
+    //ADATTAGOK
+    int tipp;
+    Random rnd = new Random();
+
+    //TAGFÜVÉNY
+    void tippel() {
+       
+        tipp = rnd.nextInt(10);
+        System.out.println("tippelésem: " + tipp);
+    }
 }
